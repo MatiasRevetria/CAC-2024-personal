@@ -1,7 +1,8 @@
 header{
     padding-bottom: 70px;
-    border-style:unset;
-    border-radius: 5%;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 3%;
     background-color: brown;
 }
 h1,h3,a,ol,li{
@@ -15,9 +16,8 @@ body{
 section,article{
     text-align: left;   
     display: block;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     width: 530px;
+    margin-left: 100px;
 }
 img{
     padding: 5px;
@@ -29,6 +29,7 @@ img{
     height: 250px;
 }
 aside{
+    display: block;
     text-align: left;
     float: right;
     background-color:brown;
