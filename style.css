@@ -1,26 +1,38 @@
-header,footer{
-    background-color:antiquewhite;
-    text-align: center;
-    padding-bottom: 100px;
+header{
+    padding-bottom: 70px;
+    border-style:unset;
+    border-radius: 5%;
+    background-color: brown;
 }
-.menu{
-    text-align: left;
+h1,h3,a,ol,li{
+    color: aliceblue;
     font-family: 'Times New Roman', Times, serif;
 }
+
 body{
-    background-color: beige;
+    background-color:lavender;
 }
 section,article{
-    text-align: center;
+    text-align: left;   
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    width: 530px;
 }
 img{
     padding: 5px;
     border-radius: 50%;
+    margin: 20px 20px 20px 20px;
     border-style: solid;
-    border-color: brown;
-    width: 100px;
-    height: 100px;
+    border-color: rgb(128, 38, 38);
+    width: 250px;
+    height: 250px;
 }
 aside{
     text-align: left;
+    float: right;
+    background-color:brown;
+    border-radius: 5%;
+    margin-right: 150px;
 }
+
