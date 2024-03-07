@@ -1,0 +1,26 @@
+header,footer{
+    background-color:antiquewhite;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.menu{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: beige;
+}
+section,article{
+    text-align: center;
+}
+img{
+    padding: 5px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: brown;
+    width: 100px;
+    height: 100px;
+}
+aside{
+    text-align: left;
+}
