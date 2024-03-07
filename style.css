@@ -5,26 +5,26 @@ header{
     border-radius: 3%;
     background-color: brown;
 }
-h1,h3,a,ol,li{
-    color: aliceblue;
+h1,h3,a,.blanco{
+    color:aliceblue;
     font-family: 'Times New Roman', Times, serif;
 }
 
 body{
-    background-color:lavender;
+    background-color:aliceblue;
 }
 section,article{
     text-align: left;   
     display: block;
     width: 530px;
     margin-left: 100px;
+    margin-bottom: 120px;
 }
 img{
     padding: 5px;
     border-radius: 50%;
     margin: 20px 20px 20px 20px;
-    border-style: solid;
-    border-color: rgb(128, 38, 38);
+    background-color: aliceblue;
     width: 250px;
     height: 250px;
 }
