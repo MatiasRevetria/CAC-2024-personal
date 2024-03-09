@@ -22,7 +22,8 @@ img{
     padding: 5px;
 }
 section{
-    text-align: left;   
+    text-align: left;
+    display: block;   
     width: 300px;
     margin-top: 19%;
     margin-left: 33%;
