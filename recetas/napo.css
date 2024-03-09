@@ -1,0 +1,39 @@
+.menu{
+    color: aliceblue;
+    background-color: brown;
+    border-radius: 4%;
+    color: rgba(0, 0, 0, 0.7);
+    -webkit-text-stroke: 1px black;
+    text-decoration: none;
+}
+
+aside{
+    float: right;
+    margin-right: 29.4%;
+    margin-top: 15%;
+    background-color: brown;
+    color: aliceblue;
+    border-radius: 4%;
+    font-size: small;
+}
+img{
+    border-radius: 50%;
+    background-color: aliceblue;
+    padding: 5px;
+}
+section{
+    text-align: left;   
+    width: 300px;
+    margin-top: 19%;
+    margin-left: 33%;
+    margin-bottom: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color: rgba(0, 0, 0, 0.7);
+    -webkit-text-stroke: 1px black;
+}
+body{
+    background-image: url('/img/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
