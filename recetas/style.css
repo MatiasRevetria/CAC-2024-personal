@@ -2,8 +2,7 @@ header{
     border-radius: 4%;
     background-color: brown;
 }
-h1,h3,a,.blanco{
-    color:aliceblue;
+h1,a{
     font-family: 'Times New Roman', Times, serif;
     color: rgba(0, 0, 0, 0.7);
     -webkit-text-stroke: 1px black;
