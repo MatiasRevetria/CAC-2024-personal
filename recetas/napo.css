@@ -1,6 +1,5 @@
 .menu{
-    width: -moz-fit-content;
-    width: fit-content;
+    width: max-content;
     color: aliceblue;
     background-color: brown;
     border-radius: 4%;
