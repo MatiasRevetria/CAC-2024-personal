@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./form.css">
     <title>Formulario</title>
 </head>
 <body>
@@ -22,12 +23,46 @@
     </header>
     <main>
         <form action="#" method="get" target="_blank">
-            <label for="firstName">Nombre: 
-            <input type="text" name="firstName" id="firstname">
-            <input type="submit" value="Enviar datos">
-        </label>
-
+            <span class="Datos-Personales">
+                <h3>Datos Personales</h3>
+                <label for="name">Nombre:</label> 
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="lastName">Apellido: </label>
+                <input type="text" id="lastName" name="lastName" required>
+                <br>
+                <label for="mail">Mail:</label>
+                <input type="text" id="mail" name="mail" required>
+            </span>
+            <span class="Ingenieria">
+                <h3>Ingenieria</h3>
+                <select name="Ingenierias" title="Ingenierias">
+                    <option value="Informatica">Informatica</option>
+                    <option value="Mecanica">Mecanica</option>
+                    <option value="Agrimensura">Agrimensura</option>
+                    <option value="Quimica">Quimica</option>
+                </select>
+            </span>
+            <br>
+            <div class="Enviar"><input type="submit" value="Enviar datos"></div> 
         </form>
+        <h1>The fieldset element</h1>
+
+        <form action="/action_page.php">
+         <fieldset>
+          <legend>Personalia:</legend>
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname"><br><br>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname"><br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br><br>
+          <label for="birthday">Birthday:</label>
+          <input type="date" id="birthday" name="birthday"><br><br>
+          <input type="submit" value="Submit">
+         </fieldset>
+        </form>
+
     </main>
 </body>
 </html>
