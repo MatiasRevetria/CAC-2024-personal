@@ -19,11 +19,15 @@ body{
 }
 .container{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 section{
     position: relative;
-    left: 270px;
-    top: 60px;   
+    top: 3em;
+    left: 6em;
     width: 250px;
     margin-bottom: 100px;
     text-align: left;
@@ -34,9 +38,6 @@ section{
     
 }
 aside{
-    position: relative;
-    left: 55.4%;
-    top: 75px;
     background-color: brown;
     color: aliceblue;
     border-radius: 4%;
