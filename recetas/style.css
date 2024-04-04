@@ -2,32 +2,45 @@ html{
     font-size: 62.5%;
 }
 .menu{
-
+    position: fixed;
     width: 180px;
-    background-color: brown;
-    border-radius: 4%;
+    height: 50px;
+    text-align: center;
+    font-size: 11px;
     color: rgba(0, 0, 0, 0.7);
     -webkit-text-stroke: 1px black;
-    text-decoration: none;
+    overflow: hidden;
+    transition-duration: 1s;
 }
-
-body{
-    background-image: url('img/fondo.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+.menu a{
+    color: inherit !important;
+    font-size: 15px;
+}
+.menu a:hover{
+    font-size: large;
+}
+.menu:hover{
+    width: 190px;
+    height: 175px;
+    background-color: RGB(156, 102, 31, 0.8) ;
+    border-radius: 4%;
+    font-size: 16px; 
+    -webkit-text-stroke: 0.5px aliceblue;
+    border-style:groove;
+    border-color: aliceblue;
 }
 .container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    /*flex-flow: row wrap;*/
+    justify-content:center;
     align-items: center;
 }
-section{
+.pasos{
     position: relative;
-    top: 3em;
-    left: 6em;
+    top: 70px;
+    left: 225px;
     width: 250px;
     margin-bottom: 100px;
     text-align: left;
@@ -37,8 +50,19 @@ section{
     -webkit-text-stroke: 1px black;
     
 }
+.video{
+    position: relative;
+    left: 300px;
+}
+.video iframe{
+    width: 300px;
+    height: 300px;
+}
 aside{
-    background-color: brown;
+    position: relative;
+    top: 55px;
+    left: 145px;
+    background-color: RGB(156, 102, 31, 0.8);
     color: aliceblue;
     border-radius: 4%;
     width: 230px;
@@ -46,10 +70,19 @@ aside{
     font-size: 11px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+aside:hover{
+    transform: scale(1.25,1.25);
+}
+
 img{
     border-radius: 50%;
-    border: 10px solid aliceblue;
-    background-color: aliceblue;
     width: 230px;
     box-sizing: border-box;
+}
+
+body{
+    background-image: url('img/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
 }
